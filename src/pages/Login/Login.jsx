@@ -21,7 +21,7 @@ const Login = () => {
             console.log(result.user)
 
             // navigate after login
-            navigate(location?.state? location.state : '/')
+            navigate(location?.state ? location.state : '/')
         })
         .catch(error=>{
             console.error(error)
